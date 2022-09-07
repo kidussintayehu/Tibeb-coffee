@@ -1,65 +1,53 @@
 <h1 align="center">
-  Coffee Delivery
-</h1>
+Tibeb Coffee Web App</h1>
 
-<p align="center">
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-use">How to Use</a>
-</p>
+This is a web application for a local coffee shop called Tibeb Coffee. The application is built using React, TypeScript, styled-components, Zod, and React Hooks.
 
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/kaikySantos/coffe-delivery">
+## Getting Started
+To get started with the application, first, clone the repository to your local machine using the command below:
 
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/kaikySantos/coffe-delivery">
-
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/kaikySantos/coffe-delivery">
-
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kaikySantos/coffe-delivery">
-</p>
-
-<p align="center">
-  <img alt="coffe-delivery" src="https://user-images.githubusercontent.com/56506919/219960287-d0612632-6063-4624-8592-6c79acfa1701.png">
-</p>
-
-<br/>
-
-## 💻 Project
-
-This is a project made entirely in React for an e-commerce coffee sales site to improve concepts such as Context API, Router, form validation through react-hook-form, and zod and styled components for styling.
-
-## 🚀 Technologies
-
-This project was developed with the following technologies:
-
-- [React](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [StyledComponents](https://www.styled-components.com/)
-- [Zod](https://zod.dev/)
-- [ReactHookForm](https://react-hook-form.com/)
-- [ReactRouterDom](https://reactrouter.com/)
-
-## ℹ️ How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Yarn](https://legacy.yarnpkg.com). From your command line:
-
-```bash
-# Clone the repository
-$ git clone https://github.com/kaikySantos/coffe-delivery.git
-
-# Go into the directory
-$ cd coffe-delivery
-
-# Install dependencies
-$ yarn
-
-# Run the development server
-$ yarn dev
-
-# Navigate to http://localhost:3000
-# The app will automatically reload if you change any of the source files.
+```javascript
+git clone https://github.com/kidussintayehu/tibeb-coffee.git
 ```
 
----
+After cloning the repository, navigate to the project directory and install the dependencies by running:
 
-Made with ♥ by Kaiky 👋🏻
+```javascript
+npm install
+```
+
+Running the App
+To run the application, use the following command:
+
+```javascript
+npm start
+```
+This will start the development server, and the application will be accessible on http://localhost:3000.
+
+Building the App
+To build the application for production, use the following command:
+
+```javascript
+npm run build
+```
+
+This will create a build folder containing the compiled application code that can be deployed to a production environment.
+
+### Features
+The Tibeb Coffee web app has the following features:
+
+A homepage that displays the coffee shop's branding and offers.
+A menu page that displays the different coffee varieties and prices.
+A cart page that allows customers to view their selected items and update their order before submitting it.
+A checkout page that collects customer information and processes their order.
+A contact page that displays the coffee shop's contact information.
+### Technology Stack
+The application is built using the following technology stack:
+
+React: A JavaScript library for building user interfaces.
+TypeScript: A statically typed superset of JavaScript that provides improved type checking and other features.
+styled-components: A CSS-in-JS library for styling React components.
+Zod: A TypeScript-first schema validation library for data validation.
+React Hooks: A feature introduced in React 16.8 that allows developers to use state and other React features without writing class components.
+Contributing
+If you would like to contribute to the project, please fork the repository and submit a pull request. We welcome contributions from the community.

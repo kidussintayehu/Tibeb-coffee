@@ -44,10 +44,10 @@ A contact page that displays the coffee shop's contact information.
 ### Technology Stack
 The application is built using the following technology stack:
 
-React: A JavaScript library for building user interfaces.
-TypeScript: A statically typed superset of JavaScript that provides improved type checking and other features.
-styled-components: A CSS-in-JS library for styling React components.
-Zod: A TypeScript-first schema validation library for data validation.
-React Hooks: A feature introduced in React 16.8 that allows developers to use state and other React features without writing class components.
-Contributing
-If you would like to contribute to the project, please fork the repository and submit a pull request. We welcome contributions from the community.
+  - React: A JavaScript library for building user interfaces.
+  - TypeScript: A statically typed superset of JavaScript that provides improved type checking and other             features.
+  - Styled-components: A CSS-in-JS library for styling React components.
+  - Zod: A TypeScript-first schema validation library for data validation.
+  - React Hooks: A feature introduced in React 16.8 that allows developers to use state and other React features     without writing class components.
+  - Contributing
+  - If you would like to contribute to the project, please fork the repository and submit a pull request. We         welcome contributions from the community.
